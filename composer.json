@@ -1,0 +1,40 @@
+{
+	"name": "inkwell/framework",
+	"description": "The inKWell framework",
+	"keywords": ["mvc", "framework", "application"],
+	"license": "AGPL 3.0",
+	"minimum-stability": "dev",
+	"prefer-stable": true,
+	"authors": [
+		{
+			"name":  "Matthew J. Sahagian",
+			"email": "msahagian@dotink.org",
+			"role":  "Lead Architect / Developer"
+		}
+	],
+	"repositories": [
+		{
+			"type": "composer",
+			"url": "http://packages.dotink.org"
+		}
+	],
+	"require": {
+		"php": ">=5.4.0",
+		"rdlowrey/auryn": "^1.4.0",
+		"dotink/affinity": "^1.2.0",
+		"dotink/inkwell-core": "^2.0.0",
+		"vlucas/phpdotenv": "^2.0.0",
+		"filp/whoops": "^2.1.0"
+	},
+	"autoload": {
+		"classmap": ["user/"]
+	},
+	"config": {
+		"secure-http": false
+	},
+	"extra": {
+		"opus": {
+			"enabled": true
+		}
+	}
+}

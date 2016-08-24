@@ -1,0 +1,377 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "e8b1cbd4e7d29bce543017686f5ec955",
+    "content-hash": "63ab27c05179fd411a62f38713cd2908",
+    "packages": [
+        {
+            "name": "dotink/affinity",
+            "version": "1.2.1",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:dotink/affinity.git",
+                "reference": "f9d61ac2c4868292a4dd41de9f45adc2dff44f98"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dotink/affinity/zipball/f9d61ac2c4868292a4dd41de9f45adc2dff44f98",
+                "reference": "f9d61ac2c4868292a4dd41de9f45adc2dff44f98",
+                "shasum": ""
+            },
+            "require": {
+                "dotink/flourish-core": "^1.0.0",
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "license": [
+                "AGPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Matthew J. Sahagian",
+                    "email": "msahagian@dotink.org",
+                    "role": "Lead Architect / Developer"
+                }
+            ],
+            "description": "A bootstrapper that loves you",
+            "keywords": [
+                "bootstrap"
+            ],
+            "time": "2016-03-31 19:30:47"
+        },
+        {
+            "name": "dotink/flourish-core",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:dotink/flourish-core.git",
+                "reference": "b915fe611a5217edfdf3ca99b4dc881d7f1e494b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dotink/flourish-core/zipball/b915fe611a5217edfdf3ca99b4dc881d7f1e494b",
+                "reference": "b915fe611a5217edfdf3ca99b4dc881d7f1e494b",
+                "shasum": ""
+            },
+            "require": {
+                "imarc/opus": "^1.0.0",
+                "php": ">=5.4.0"
+            },
+            "type": "opus-package",
+            "extra": {
+                "opus": {
+                    "dotink/inkwell-2.0": {
+                        "src": "library/flourish"
+                    }
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "license": [
+                "AGPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Matthew J. Sahagian",
+                    "email": "msahagian@dotink.org",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Useful debugging, error/exception handling, and normalization classes",
+            "keywords": [
+                "debugging",
+                "error handling",
+                "exception handling"
+            ],
+            "time": "2015-04-22 06:09:18"
+        },
+        {
+            "name": "dotink/inkwell-core",
+            "version": "2.0.2",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:dotink/inkwell-core.git",
+                "reference": "8974d7d4ecb0475309b02198bc9a2e783f5511e6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dotink/inkwell-core/zipball/8974d7d4ecb0475309b02198bc9a2e783f5511e6",
+                "reference": "8974d7d4ecb0475309b02198bc9a2e783f5511e6",
+                "shasum": ""
+            },
+            "require": {
+                "dotink/flourish-core": "^1.0.0",
+                "imarc/opus": "^1.0.0",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "dotink/lab": "^1.1.0"
+            },
+            "type": "opus-package",
+            "extra": {
+                "opus": {
+                    "inkwell/framework": {
+                        "plugin/boot": "boot",
+                        "plugin/config": "config"
+                    }
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "license": [
+                "AGPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Matthew J. Sahagian",
+                    "email": "msahagian@dotink.org",
+                    "role": "Lead Architect / Developer"
+                }
+            ],
+            "description": "Core application and interfaces",
+            "keywords": [
+                "mvc"
+            ],
+            "time": "2016-08-04 07:21:26"
+        },
+        {
+            "name": "filp/whoops",
+            "version": "2.1.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/filp/whoops.git",
+                "reference": "8828aaa2178e0a19325522e2a45282ff0a14649b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/filp/whoops/zipball/8828aaa2178e0a19325522e2a45282ff0a14649b",
+                "reference": "8828aaa2178e0a19325522e2a45282ff0a14649b",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.9"
+            },
+            "require-dev": {
+                "mockery/mockery": "0.9.*",
+                "phpunit/phpunit": "^4.8 || ^5.0",
+                "symfony/var-dumper": "~3.0"
+            },
+            "suggest": {
+                "symfony/var-dumper": "Pretty print complex values better with var-dumper available",
+                "whoops/soap": "Formats errors as SOAP responses"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Whoops\\": "src/Whoops/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Filipe Dobreira",
+                    "homepage": "https://github.com/filp",
+                    "role": "Developer"
+                }
+            ],
+            "description": "php error handling for cool kids",
+            "homepage": "https://github.com/filp/whoops",
+            "keywords": [
+                "error",
+                "exception",
+                "handling",
+                "library",
+                "whoops",
+                "zf2"
+            ],
+            "time": "2016-05-06 18:25:35"
+        },
+        {
+            "name": "imarc/opus",
+            "version": "1.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/imarc/opus.git",
+                "reference": "9a03c5b48d8e5b094dca77cc045d801ae096bbf4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/imarc/opus/zipball/9a03c5b48d8e5b094dca77cc045d801ae096bbf4",
+                "reference": "9a03c5b48d8e5b094dca77cc045d801ae096bbf4",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "composer-installer",
+            "extra": {
+                "class": "iMarc\\Opus\\Processor"
+            },
+            "autoload": {
+                "psr-0": {
+                    "iMarc\\Opus": "src/",
+                    "Diff": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Matthew J. Sahagian",
+                    "email": "matt@imarc.net",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Multi-framework asset and module packaging for composer",
+            "keywords": [
+                "package management"
+            ],
+            "time": "2015-02-22 20:52:20"
+        },
+        {
+            "name": "rdlowrey/auryn",
+            "version": "v1.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/rdlowrey/auryn.git",
+                "reference": "2e4240791162dfe073d59654d8dc06df0eb0b73f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/rdlowrey/auryn/zipball/2e4240791162dfe073d59654d8dc06df0eb0b73f",
+                "reference": "2e4240791162dfe073d59654d8dc06df0eb0b73f",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "athletic/athletic": "~0.1",
+                "fabpot/php-cs-fixer": "~1.9",
+                "phpunit/phpunit": "^4.7"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Auryn\\": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Dan Ackroyd",
+                    "email": "Danack@basereality.com",
+                    "homepage": "http://www.basereality.com",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Levi Morrison",
+                    "email": "levim@php.net",
+                    "homepage": "http://morrisonlevi.github.com/",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Daniel Lowrey",
+                    "email": "rdlowrey@gmail.com",
+                    "homepage": "https://github.com/rdlowrey",
+                    "role": "Creator / Main Developer"
+                }
+            ],
+            "description": "Auryn is a dependency injector for bootstrapping object-oriented PHP applications.",
+            "homepage": "https://github.com/rdlowrey/auryn",
+            "keywords": [
+                "dependency injection",
+                "dic",
+                "ioc"
+            ],
+            "time": "2016-03-14 20:10:19"
+        },
+        {
+            "name": "vlucas/phpdotenv",
+            "version": "v2.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/vlucas/phpdotenv.git",
+                "reference": "9ca5644c536654e9509b9d257f53c58630eb2a6a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/9ca5644c536654e9509b9d257f53c58630eb2a6a",
+                "reference": "9ca5644c536654e9509b9d257f53c58630eb2a6a",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.9"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.8 || ^5.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.3-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Dotenv\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause-Attribution"
+            ],
+            "authors": [
+                {
+                    "name": "Vance Lucas",
+                    "email": "vance@vancelucas.com",
+                    "homepage": "http://www.vancelucas.com"
+                }
+            ],
+            "description": "Loads environment variables from `.env` to `getenv()`, `$_ENV` and `$_SERVER` automagically.",
+            "keywords": [
+                "dotenv",
+                "env",
+                "environment"
+            ],
+            "time": "2016-06-14 14:14:52"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": [],
+    "prefer-stable": true,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=5.4.0"
+    },
+    "platform-dev": []
+}
